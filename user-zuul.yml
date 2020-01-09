@@ -10,4 +10,4 @@ zuul:
   routes:
     my-zuul: #路由器的id
       path: /user/** #路由器的映射路径
-      serviceId: user-consumer #配置转发的微服务名称
+      serviceId: user-consumer,user-provider #配置转发的微服务名称
