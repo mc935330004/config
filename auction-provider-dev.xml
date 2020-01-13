@@ -1,4 +1,3 @@
-
 server:
   port: 8002
 spring:
@@ -15,3 +14,4 @@ eureka:
       defaultZone: http://root:ok@localhost:7001/eureka/
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+
