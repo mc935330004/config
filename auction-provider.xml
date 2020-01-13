@@ -1,1 +1,17 @@
-dddd
+
+server:
+  port: 8002
+spring:
+  application:
+    name: user-provider
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/auctiondbs
+    username: root
+    password: ok
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:ok@localhost:7001/eureka/
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
